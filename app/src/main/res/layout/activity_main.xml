@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/img"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:layout_marginBottom="20dp"
+                android:textSize="60sp"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="helvetica"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                tools:textSize="30sp"/>
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:width="300dp"
+                android:background="@drawable/background1"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="7dp"
+                android:ems="10"
+                android:elevation="6dp"
+                android:hint="Username"
+                android:inputType="textEmailAddress"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:width="300dp"
+                android:background="@drawable/background1"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="7dp"
+                android:ems="10"
+                android:hint="Password"
+                android:elevation="6dp"
+                android:inputType="textPassword"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/white"
+                android:text="Login"
+                android:elevation="20dp"
+                android:textStyle="bold"
+                android:textColor="#F63122"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
